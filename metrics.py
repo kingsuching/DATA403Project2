@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+from matplotlib import pyplot as plt
+
 
 def accuracy(y_true, y_pred):
     return np.mean(y_true == y_pred)
@@ -24,4 +26,18 @@ def f1(y_true, y_pred):
     return (2 * p * r)/(p+r)
 
 def roc_auc(y_true, y_pred):
-    pass
+    thresholds = np.unique(y_pred)
+    thresholds.sort()
+    shape = thresholds.shape[0]
+    fpr = np.zeros(shape)
+    tpr = np.zeros(shape)
+    for i in range(shape):
+        t = thresholds[i]
+        fpr[i] = np.mean((y_pred >= t) & (y_true == 0))
+        tpr[i] = np.mean((y_pred >= t) & (y_true == 1))
+    auc = np.trapz(tpr, fpr)
+    plt.plot(fpr, tpr, color='Orange', label='Curve')
+    plt.xlabel("False Positive Rate")
+    plt.ylabel("True Positive Rate")
+    plt.title("ROC Curve")
+    return auc
