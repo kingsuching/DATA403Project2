@@ -23,7 +23,7 @@ def recall(y_true, y_pred):
 def f1(y_true, y_pred):
     p = precision(y_true, y_pred)
     r = recall(y_true, y_pred)
-    return (2 * p * r)/(p+r)
+    return (1/p) + (1/r)
 
 def roc_auc(y_true, y_pred, plot=False):
     thresholds = np.linspace(0, 1, 100)
@@ -31,6 +31,7 @@ def roc_auc(y_true, y_pred, plot=False):
     fpr = []
     for threshold in thresholds:
         classifications = np.where(y_pred >= threshold, 1, 0)
+        print(classifications)
         tp = np.sum((classifications == 1) & (y_true == 1))
         fp = np.sum((classifications == 1) & (y_true == 0))
         tn = np.sum((classifications == 0) & (y_true == 0))
