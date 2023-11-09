@@ -1,3 +1,0 @@
-dataset/application_test.csv filter=lfs diff=lfs merge=lfs -text
-dataset/application_train.csv filter=lfs diff=lfs merge=lfs -text
-dataset/sample_submission.csv filter=lfs diff=lfs merge=lfs -text
