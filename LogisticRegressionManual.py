@@ -41,12 +41,3 @@ class LogisticRegressionManual:
     def predict(self, X_test, threshold=0.5):
         probas = self.predict_proba(X_test)
         return np.where(probas[1] >= threshold, 1, 0)
-
-def clean(data, stringThing = "", numThing = 0):
-    for col in data.columns:
-        if data[col].dtype == "object":
-            data[col] = data[col].astype(str)
-            data[col].fillna(stringThing, inplace=True)
-        else:
-            data[col].fillna(numThing, inplace=True)
-    return data
