@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f1651459-20df-477a-b3bf-eb3685e1e7c9" name="Changes" comment="logistic regression manual">
+      <change beforePath="$PROJECT_DIR$/LogisticRegressionManual.py" beforeDir="false" afterPath="$PROJECT_DIR$/LogisticRegressionManual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 2 Codebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Project 2 Codebook.ipynb" afterDir="false" />
+    </list>
+    <list id="a127b392-2468-47db-9a97-3aaefdaf0215" name="back step" comment="back step" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2XVBQ1MPfmdm5spwJQ40FPx572u" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="metrics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DATA403Project2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/metrics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.metrics" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1651459-20df-477a-b3bf-eb3685e1e7c9" name="Changes" comment="" />
+      <changelist id="a127b392-2468-47db-9a97-3aaefdaf0215" name="back step" comment="" />
+      <created>1698704347210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698704347210</updated>
+      <workItem from="1698704348657" duration="7063000" />
+      <workItem from="1698777920260" duration="1735000" />
+      <workItem from="1698888453648" duration="1140000" />
+      <workItem from="1698891762953" duration="6000" />
+      <workItem from="1698953331342" duration="1239000" />
+      <workItem from="1699034091985" duration="4485000" />
+      <workItem from="1699046341172" duration="44000" />
+      <workItem from="1699046399780" duration="83000" />
+      <workItem from="1699382487358" duration="1380000" />
+      <workItem from="1699395438300" duration="595000" />
+      <workItem from="1699482663011" duration="656000" />
+      <workItem from="1699483757214" duration="60000" />
+      <workItem from="1699554524494" duration="1966000" />
+      <workItem from="1699558805144" duration="2406000" />
+      <workItem from="1699567312731" duration="7000" />
+      <workItem from="1699646019736" duration="2095000" />
+      <workItem from="1699659618493" duration="95000" />
+      <workItem from="1699723882689" duration="623000" />
+    </task>
+    <task id="LOCAL-00001" summary="Setup">
+      <option name="closed" value="true" />
+      <created>1698705895993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698705895993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed setup">
+      <option name="closed" value="true" />
+      <created>1698713135973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698713135973</updated>
+    </task>
+    <task id="LOCAL-00003" summary="notebook">
+      <option name="closed" value="true" />
+      <created>1698713719403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698713719403</updated>
+    </task>
+    <task id="LOCAL-00004" summary="no dataset">
+      <option name="closed" value="true" />
+      <created>1698714956795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698714956795</updated>
+    </task>
+    <task id="LOCAL-00005" summary="doing it">
+      <option name="closed" value="true" />
+      <created>1698889237380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698889237380</updated>
+    </task>
+    <task id="LOCAL-00006" summary="metrics">
+      <option name="closed" value="true" />
+      <created>1698889577243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698889577243</updated>
+    </task>
+    <task id="LOCAL-00007" summary="doing stuff">
+      <option name="closed" value="true" />
+      <created>1698954508972</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698954508973</updated>
+    </task>
+    <task id="LOCAL-00008" summary="doing stuff">
+      <option name="closed" value="true" />
+      <created>1699483694658</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699483694658</updated>
+    </task>
+    <task id="LOCAL-00009" summary="The Rock">
+      <option name="closed" value="true" />
+      <created>1699483723819</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699483723819</updated>
+    </task>
+    <task id="LOCAL-00010" summary="working on it">
+      <option name="closed" value="true" />
+      <created>1699556031055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699556031055</updated>
+    </task>
+    <task id="LOCAL-00011" summary="almost done">
+      <option name="closed" value="true" />
+      <created>1699560696408</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699560696408</updated>
+    </task>
+    <task id="LOCAL-00012" summary="almost done">
+      <option name="closed" value="true" />
+      <created>1699561732760</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699561732760</updated>
+    </task>
+    <task id="LOCAL-00013" summary="logistic regression manual">
+      <option name="closed" value="true" />
+      <created>1699647915383</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699647915383</updated>
+    </task>
+    <task id="LOCAL-00014" summary="logistic regression manual">
+      <option name="closed" value="true" />
+      <created>1699647935238</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699647935238</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Setup" />
+    <MESSAGE value="fixed setup" />
+    <MESSAGE value="notebook" />
+    <MESSAGE value="no dataset" />
+    <MESSAGE value="doing it" />
+    <MESSAGE value="metrics" />
+    <MESSAGE value="doing stuff" />
+    <MESSAGE value="The Rock" />
+    <MESSAGE value="working on it" />
+    <MESSAGE value="almost done" />
+    <MESSAGE value="back step" />
+    <MESSAGE value="logistic regression manual" />
+    <option name="LAST_COMMIT_MESSAGE" value="logistic regression manual" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/sucheen/Documents/Cal Poly SLO/Academics/Year 4/Fall 2023/DATA 403-01/DATA403Project2/Project 2 Codebook.ipynb</url>
+          <line>165</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LogisticRegressionManual.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DATA403Project2$metrics.coverage" NAME="metrics Coverage Results" MODIFIED="1699556191102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DATA403Project2$LogisticRegressionManual.coverage" NAME="LogisticRegressionManual Coverage Results" MODIFIED="1699647885931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataset" />
+  </component>
+</project>

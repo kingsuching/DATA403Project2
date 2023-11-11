@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class LogisticRegressionManual:
+
     def __init__(self, num=500, eta=0.001):
         self.num = num
         self.eta = eta
@@ -17,8 +18,8 @@ class LogisticRegressionManual:
         self.betas = np.zeros(X.shape[1])
         for i in range(self.num):
             zi = X @ self.betas
-            #print(self.betas)
             p = 1 / (1 + np.exp(-zi))
+            # feel free to play with the loss function. This is used because it doesn't fail
             dl = X.T @ (2 * (c - p) * -p ** 2 * -np.exp(-zi)) + 15 * self.betas
             if np.sum(np.sign(self.betas) != np.sign(self.betas - self.eta * dl)) > 2:
                 self.eta /= 2

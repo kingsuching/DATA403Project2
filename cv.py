@@ -1,9 +1,5 @@
 import pandas as pd
 import numpy as np
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-
 from metrics import *
 import warnings
 warnings.filterwarnings("ignore")
@@ -56,7 +52,7 @@ def splits(data, mode="random", v=5):
         raise ValueError(f"Invalid mode: {mode}")
     return folds
 
-def cv(data, mode="random", v=5, models=[LogisticRegression(), SVC(), LinearDiscriminantAnalysis(solver="lsqr")]):
+def cv(data, models, mode="random", v=5):
     folds = splits(data, mode, v)
     things = pd.DataFrame(columns=["model", "fold", "accuracy", "precision", "recall", "f1", "roc_auc"])
     for m in models:
